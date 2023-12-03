@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014653782668",
+    "project_id": "androidapp-c1c85",
+    "storage_bucket": "androidapp-c1c85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014653782668:android:db1a820be1fb7df2f1c9a9",
+        "android_client_info": {
+          "package_name": "com.example.happyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjWvCw_WRbaxU1HWmKVBdQ9jopTbzf6bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

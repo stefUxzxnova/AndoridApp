@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <!-- Id -->
+    <TextView
+        android:id="@+id/textViewID_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/textViewName_tvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_toRightOf="@id/textViewID_tv"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:maxLines="1"
+        android:layout_marginStart="2dp"
+        android:ellipsize="end"/>
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/textViewQuantity_tvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewName_tvv"
+        android:layout_marginStart="16dp"
+        android:text="Quantity"
+        android:textSize="18sp"
+        android:textColor="#777777"/>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/textViewPrice_tvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewQuantity_tvv"
+        android:layout_marginStart="16dp"
+        android:text="Price"
+        android:textSize="18sp"
+        android:textColor="#777777"/>
+
+    <!-- Total -->
+    <TextView
+        android:id="@+id/textViewTotalP_tvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewPrice_tvv"
+        android:layout_marginStart="16dp"
+        android:gravity="end"
+        android:text="Total"
+        android:textSize="18sp"
+        android:textColor="#777777"/>
+
+</RelativeLayout>

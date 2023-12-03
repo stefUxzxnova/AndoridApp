@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateShoppingListItem">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitleViewCreating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Shopping List Item"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Name -->
+    <EditText
+        android:id="@+id/editTextShoppingListItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:layout_below="@id/textViewTitleViewCreating"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+    <!-- Quantity -->
+    <EditText
+        android:id="@+id/editTextShoppingListItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:layout_below="@id/editTextShoppingListItemName"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+    <!-- Price -->
+    <EditText
+        android:id="@+id/editTextShoppingListItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/editTextShoppingListItemQuantity"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+    <!-- Create Button -->
+    <Button
+        android:id="@+id/btnCreateShoppingListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_below="@id/editTextShoppingListItemPrice"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
